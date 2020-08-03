@@ -1,0 +1,20 @@
+
+.header__notify-list{
+    list-style:none;   
+    display:inline-block ;
+    padding:5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    position: relative;
+   
+}
+.header__notify-list-item{
+    position: relative;
+    padding-right:10px;
+    display:inline-block;
+    
+}
+.header__notify-list-link{
+    padding-right:10px;
+}

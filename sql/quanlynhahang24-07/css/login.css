@@ -1,0 +1,17 @@
+.login_form{
+    margin: 150px auto;
+    border-radius:4px;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #e9ecef !important;
+}
+body{
+    width: 100%;
+    height:100%;
+    background:url("../image/bg_3.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+    .login_form {
+        margin: 150px 20px;
+    }
+  }

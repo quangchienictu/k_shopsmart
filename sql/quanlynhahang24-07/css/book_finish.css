@@ -1,0 +1,14 @@
+.bookfinish__form{
+    width:60%;
+    margin-left:300px;
+    margin-top:100px;
+    padding:2%;
+    margin-bottom:10%;
+    border-radius:4px;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #e9ecef !important;
+}
+.bookfinish__btn{
+    width:100px !important;
+    margin-left:45%;
+}

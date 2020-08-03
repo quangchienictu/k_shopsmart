@@ -1,0 +1,16 @@
+.signin__form{
+    width:80%;
+    margin-top:20%;
+    margin-left:10%;
+    padding:2%;
+    margin-bottom:10%;
+    border-radius:4px;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: #e9ecef !important;
+
+}
+body{
+    width: 100%;
+    height:100%;
+    background:url("../image/bg_1.jpg");
+}

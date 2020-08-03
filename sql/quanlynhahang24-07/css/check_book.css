@@ -1,0 +1,34 @@
+
+.checkbook__body{
+    background-color: rgb(247,247,248);
+    height:70%;
+    margin-top:30px;
+    margin:auto;
+    text-align: center;
+    border-radius:5px ;
+    
+}
+.header__text{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ad306d;
+}
+.table__item{
+    padding:0;
+    background: white;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px #d4d4d4;
+    border-radius: 4px;
+    margin: 10px;
+}
+.table__link{
+    text-decoration: none;
+    color:black;
+}
+.table__link:hover{
+    text-decoration:none;
+    color:rgb(223,0,18);
+  
+}

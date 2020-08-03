@@ -1,0 +1,97 @@
+/* PRODUCT ITEM */
+.body__product{
+    margin-top:100px;
+}
+.product{
+    margin-bottom:10px;
+}
+.home__product-item-img{
+    /* width: 251px;  */
+    /* max-height:168px; */
+    background-position: top;
+    background-size: cover;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+
+}
+.home__product-item{
+    position: relative;
+    background-color: var(--white-color);
+    margin-top:10px;
+    margin-bottom:30px;
+    transition: transform;
+    border:1px solid rgb(231,234,237);
+    
+}
+.home__product-item-name{
+    color: #bd0046;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height:1.2rem;
+    text-align: center;
+    padding:10px 0;
+    height:2rem;
+    overflow: hidden;
+    display:block;
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    /* white-space: nowrap;
+    text-overflow: ellipsis; sử dụng cho nhũng trình duyệt  không hỗ trợ*/
+}
+.home__product-item-price{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    
+
+}
+.home__product-item-price-old{
+    font-size: 1rem;
+    color:#666;
+    text-decoration: line-through;
+    padding-left:10px;
+
+}
+.home__product-item-price-curent{
+    font-size:1.2rem;
+    color:red;
+    padding-right: 10px;
+
+}
+.home__product-item-price-sale{
+    position:absolute;
+    right:0;
+    top:0;
+    width:40px;
+    height:36px;
+    text-align:center;
+    background:rgba(255, 216, 64, 0.94);
+
+}
+.home__product-item-price-sale-percent{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    font-weight:500;
+    position: relative;
+    top:-4px;
+
+}
+.home__product-item-price-sale-label{
+    font-size:0.8rem;
+    line-height: 0.8rem;
+    position: relative;  
+    top:-10px;
+    font-weight:500;
+
+}
+.home__product-item-price-sale::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    border-width:0 20px 6px;
+    border-style:solid;
+    border-color:transparent rgba(255, 216, 64, 0.94) transparent rgba(255, 216, 64, 0.94);
+}

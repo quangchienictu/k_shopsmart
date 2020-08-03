@@ -1,0 +1,15 @@
+
+.category{
+    margin-left:5px;
+}
+.list__item{
+    text-align:center;
+}
+.list__link{
+    color:black;
+    text-decoration:none;
+}   
+.list__link:hover{
+    color:red;
+    text-decoration:none;
+}

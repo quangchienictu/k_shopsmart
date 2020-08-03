@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.jumbotron{
+    margin:0;
+    padding:0;
+    background-image: url(../images/jumbo1.1.jpeg);
+    background-color: black;
+    background-repeat: no-repeat;
+    height:50vw;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+  }
+  
+  #heading{
+    color: white;
+    font-weight: normal !important;
+    margin-top: 30vw;
+    float:left;
+    text-align:left;
+    font-family: 'Roboto',sans-serif;
+    font-size: 3.5vw;
+    margin-left: 30px;
+  }
+  
+  
+  #featured{
+    padding-top: 5em;
+  
+  }
+  
+  
+  .reg_form>a{
+      font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  
+  .navbar-brand{
+      font-family: 'Sriracha',sans-serif;
+      font-size: 2.5em;
+      color: white !important;
+      padding-left: 25px;
+      font-weight: normal;
+  }
+  
+  .navbar-custom{
+      background: linear-gradient(to right, rgb(204, 43, 94), rgb(117, 58, 136));
+      height: 95px;
+     /*  position: fixed; */
+    width: 100%;
+    z-index: 999;
+  }
+  
+  a:hover{
+      text-decoration: none;
+
+  }
+  
+  .fa-home,.fa-instagram,.fa-twitter,.fa-facebook,.fa-mobile-alt{
+      color:#B0B0B0 !important; 
+      font-size: 6em !important;
+  }
+  
+  .fa-arrow-left{
+    color: white !important;
+    font-size: 2em !important;
+    margin-top: 6vw;
+    float: left;
+    margin-left: 0;
+    padding-left: 40px;
+    position: fixed;
+  }
+  
+  .fa-arrow-left:hover{
+    cursor: pointer;
+  }
+  
+  footer{
+    color: #B0B0B0;
+    font-family: 'Arial',sans-serif;
+  }
+  
+  
+  .navbar-nav>li>a{
+  
+      color: white;
+  }
+  
+  .navbar-nav>li>a:hover{
+  
+      color:  white;
+      border-radius: 8px 8px;
+  }
+  
+  
+  .partner{
+      background: url(../images/joinus.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    height: 60vw !important;
+    background-attachment: fixed;
+  }
+  
+  #partnering1{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    padding: 20px
+  }
+  
+  #partnering2{
+      color: white;
+    margin-top: 15vw;
+    text-align:right;
+    font-family: 'Roboto',sans-serif;
+    font-size: 5vw;
+    font-weight: lighter;
+  }
+  
+
+  footer{
+      padding: 30px 30px 30px 30px
+  }
+  
+  
+  
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    widows: 200px;
+    background-color: gray;
+  }
+  
+  .card-title {
+    margin-bottom: 0px;
+  }
+  
+  .light {
+    color: rgb(176, 176, 177);
+  }
+  
+  .card:hover{
+    background-color:#FBFBFB;
+    box-shadow: 0 8px 10px 0px rgba(0,0,0,0.70), 0 0px 0px 1px rgba(0,0,0,0.08);
+    color: black;
+    font-size: 1em;
+  }
+  
+  
+  /*----------hstyles import--------------------------------------------*/
+  td{
+    margin: 0;
+  }
+  
+  .menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+  }
+  
+  
+  .hoteldisplay {
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+    border: 2px solid red;
+  }
+  
+  
+  @media (max-width: 786px) {
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+      background-attachment: scroll;
+    }
+  }
+  
