@@ -74,6 +74,7 @@ while ($row = $query -> fetch_array()) {
 		<h5>Địa chỉ người đặt: <?php echo $row['address']?></h5>
 		<h5>SDT: <?php echo $row['phone']?></h5>
 		<h5>Ngày đặt: <?php echo $row['order_date']?></h5>
+		<h5>Hạn bảo hành: <?php echo date( 'Y-m-j',strtotime ( '+1 year' , strtotime ( $row['order_date'] ) )) ;?></h5>
 		<h5 style="color: red"><?php echo getStatus($row['status'])?></h5>
 		<div class="table-responsive">
 			<table class="table">

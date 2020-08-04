@@ -75,7 +75,7 @@ if (isset($_GET['index'])) {
                             <thead>
                                 <tr>
                                     <th class="product-name">Hình ảnh</th>
-                                    <th class="product-price">Tên xe</th>
+                                    <th class="product-price">Tên sản phẩm</th>
                                     <th class="product-name">Size</th>
                                     <th class="product-name">Đơn giá</th>
                                     <th class="product-price">Số lượng</th>
